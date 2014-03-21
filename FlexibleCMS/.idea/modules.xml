@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FlexibleCMS/FlexibleCMS.iml" filepath="$PROJECT_DIR$/FlexibleCMS/FlexibleCMS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FlexibleCMS_Dao/FlexibleCMS_Dao.iml" filepath="$PROJECT_DIR$/FlexibleCMS_Dao/FlexibleCMS_Dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FlexibleCMS_Service/FlexibleCMS_Service.iml" filepath="$PROJECT_DIR$/FlexibleCMS_Service/FlexibleCMS_Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FlexibleCMS_Web/cms_web.iml" filepath="$PROJECT_DIR$/FlexibleCMS_Web/cms_web.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cms_dao:war">
+    <output-path>$PROJECT_DIR$/cms_dao/target</output-path>
+    <root id="archive" name="cms_dao-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="cms_dao:war exploded" />
+    </root>
+  </artifact>
+</component>

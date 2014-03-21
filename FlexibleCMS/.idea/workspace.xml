@@ -1,0 +1,1657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f804d790-c910-46e4-a4a2-29fbf8201c03" name="Default" comment="" />
+    <ignored path="FlexibleCMS.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="FlexibleCMS" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/cms_mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/cms_mvc/cms_web.iml" />
+        <option value="$PROJECT_DIR$/cms_web/src/main/java/com/intertid/cms/controller/HellwordServlert.java" />
+        <option value="$PROJECT_DIR$/cms_web/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/cms_web2/pom.xml" />
+        <option value="$PROJECT_DIR$/cms_web/cms_web.iml" />
+        <option value="$PROJECT_DIR$/cms_web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/cms_dao/pom.xml" />
+        <option value="$PROJECT_DIR$/cms_web/src/main/java/code/monkey/cms/controller/Servlet.java" />
+        <option value="$PROJECT_DIR$/cms_web/pom.xml" />
+        <option value="$PROJECT_DIR$/cms_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/FlexibleCMS_Web/src/main/resources/spring-servlet.xml" />
+        <option value="$PROJECT_DIR$/FlexibleCMS_Dao/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/FlexibleCMS_Web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/FlexibleCMS_Dao/src/main/java/com/flexiblecms/dao/impl/Ni.java" />
+        <option value="$PROJECT_DIR$/FlexibleCMS_Dao/src/main/java/com/flexiblecms/db/entiy/User.java" />
+        <option value="$PROJECT_DIR$/FlexibleCMS_Dao/src/main/java/com/flexiblecms/db/entiy/User.xml" />
+        <option value="$PROJECT_DIR$/FlexibleCMS_Dao/src/main/java/com/flexiblecms/db/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/FlexibleCMS_Dao/src/main/java/com/flexiblecms/db/impl/BaseDaoImpl.java" />
+        <option value="$PROJECT_DIR$/FlexibleCMS_Service/pom.xml" />
+        <option value="$PROJECT_DIR$/FlexibleCMS_Service/src/main/java/com/flexiblecms/service/dao/UserServiceDao.java" />
+        <option value="$PROJECT_DIR$/FlexibleCMS_Dao/pom.xml" />
+        <option value="$PROJECT_DIR$/FlexibleCMS/pom.xml" />
+        <option value="$PROJECT_DIR$/FlexibleCMS_Web/pom.xml" />
+        <option value="$PROJECT_DIR$/FlexibleCMS_Dao/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/FlexibleCMS_Service/src/main/java/com/flexiblecms/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/FlexibleCMS_Web/src/main/java/com/flexiblecms/web/controller/HellwordController.java" />
+        <option value="$PROJECT_DIR$/FlexibleCMS_Dao/src/main/java/com/flexiblecms/db/impl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/FlexibleCMS_Dao/src/main/java/com/flexiblecms/db/impl/UserDaoImpl2.java" />
+        <option value="$PROJECT_DIR$/FlexibleCMS_Dao/src/main/java/com/flexiblecms/db/CommonDaoSupport.java" />
+        <option value="$PROJECT_DIR$/FlexibleCMS_Dao/src/main/java/com/flexiblecms/db/base/BaseDaoImpl.java" />
+        <option value="$PROJECT_DIR$/FlexibleCMS_Web/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/FlexibleCMS_Dao/src/main/java/com/flexiblecms/db/dao/impl/UserDaoImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="flexiblecms_dao" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="flexibleCMS" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="flexibleCMS" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="flexibleCMS" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="tomcat7" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="flexibleCMS" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="true" />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlexibleCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="cms_web">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="cms_dao">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="reference.settings.project.maven.repository.indices" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="LayoutCode.rearrangeEntriesXML" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.flexiblecms.db.base" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git_idea_workspace\FlexibleCMS\FlexibleCMS_Dao\src\main\resources\mappers" />
+      <recent name="E:\git_idea_workspace\FlexibleCMS\FlexibleCMS_Dao\src\main\java\com\flexiblecms\db\entiy" />
+      <recent name="E:\git_idea_workspace\FlexibleCMS\FlexibleCMS_Dao\src\main\resources" />
+      <recent name="E:\git_idea_workspace\FlexibleCMS\FlexibleCMS_Service" />
+      <recent name="E:\git_idea_workspace\FlexibleCMS\FlexibleCMS_Web\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git_idea_workspace\FlexibleCMS\FlexibleCMS_Web\src\main\resources" />
+      <recent name="E:\git_idea_workspace\FlexibleCMS" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.flexibleCMS [tomcat7:run]">
+    <configuration default="false" name="flexibleCMS [package]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/cms_parent" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="flexibleCMS [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/cms_parent" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="flexibleCMS [package] (1)" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/FlexibleCMS" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="flexibleCMS [tomcat7:run-war]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run-war" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/FlexibleCMS" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="flexibleCMS [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/FlexibleCMS" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.39" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_FlexibleCMS" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="11457" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="11459" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Tomacat7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.39" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_FlexibleCMS" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="11457" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomacat7" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.flexibleCMS [package]" />
+      <item index="2" class="java.lang.String" itemvalue="Maven.flexibleCMS [clean]" />
+      <item index="3" class="java.lang.String" itemvalue="Maven.flexibleCMS [package] (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Maven.flexibleCMS [tomcat7:run-war]" />
+      <item index="5" class="java.lang.String" itemvalue="Maven.flexibleCMS [tomcat7:run]" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Maven.flexibleCMS [tomcat7:run]" />
+        <item index="1" class="java.lang.String" itemvalue="Maven.flexibleCMS [package] (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Maven.flexibleCMS [tomcat7:run-war]" />
+        <item index="3" class="java.lang.String" itemvalue="Maven.flexibleCMS [clean]" />
+        <item index="4" class="java.lang.String" itemvalue="Maven.flexibleCMS [package]" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SpringBeansView">
+    <option name="showModules" value="false" />
+    <option name="showImplicitBeans" value="false" />
+    <option name="showDoc" value="false" />
+    <option name="showGraph" value="false" />
+  </component>
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f804d790-c910-46e4-a4a2-29fbf8201c03" name="Default" comment="" />
+      <created>1395291769181</created>
+      <updated>1395291769181</updated>
+      <workItem from="1395291771507" duration="12002000" />
+      <workItem from="1395303800985" duration="4296000" />
+      <workItem from="1395363030563" duration="4678000" />
+      <workItem from="1395367779108" duration="21771000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="42747000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38569424" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959327" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2510519" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24066092" sideWeight="0.37026647" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.050490882" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24066092" sideWeight="0.50070125" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959327" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1795977" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36325386" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29885057" sideWeight="0.6297335" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35764375" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2286115" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="33" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="2178">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="21" selection-start="457" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="484">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="44" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.0" vertical-offset="474" max-vertical-offset="2068">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/flexibleCMS:flexibleCMS:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>flexibleCMS:flexibleCMS:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">flexibleCMS:flexibleCMS:1.0-SNAPSHOT</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-106.0" y="-16.0" />
+          <SelectedNodes>
+            <node>flexibleCMS:flexibleCMS:1.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Web/FlexibleCMS_Web.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="22" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="814" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Web/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="242">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="35" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="550">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1914">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="23" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1012">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Web/FlexibleCMS_Web.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="55" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="748" />
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/flexibleCMS:cms_web:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>flexibleCMS:cms_web:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">flexibleCMS:cms_web:1.0-SNAPSHOT</node>
+            <node x="" y="">javax.servlet:servlet-api:jar:2.5</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="110.0" y="16.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar!/javax/servlet/http/HttpServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="22" selection-start="170" selection-end="170" vertical-scroll-proportion="0.2258727" vertical-offset="0" max-vertical-offset="1078" />
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-cms_web">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-cms_web</OriginalElement>
+          <nodes>
+            <node x="" y="">mdl-cms_web</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="72.0" y="16.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Web/FlexibleCMS_Web.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="22" selection-start="883" selection-end="883" vertical-scroll-proportion="0.34554973" vertical-offset="220" max-vertical-offset="902" />
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/flexibleCMS:flexibleCMS:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>flexibleCMS:flexibleCMS:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">flexibleCMS:flexibleCMS:1.0-SNAPSHOT</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-106.0" y="-16.0" />
+          <SelectedNodes>
+            <node>flexibleCMS:flexibleCMS:1.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Web/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="474">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="490" />
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/cms_web:cms_web:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>cms_web:cms_web:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="208.0" y="84.0">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="111.0" y="0.0">javax.servlet:servlet-api:jar:2.5</node>
+            <node x="111.0" y="42.0">flexibleCMS:cms_dao:jar:1.0-SNAPSHOT</node>
+            <node x="111.0" y="84.0">junit:junit:jar:4.11</node>
+            <node x="0.0" y="0.0">cms_web:cms_web:1.0-SNAPSHOT</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="cms_web:cms_web:1.0-SNAPSHOT" target="junit:junit:jar:4.11">
+              <point x="0.0" y="0.0" />
+              <point x="40.5" y="100.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="cms_web:cms_web:1.0-SNAPSHOT" target="javax.servlet:servlet-api:jar:2.5">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="junit:junit:jar:4.11" target="junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="cms_web:cms_web:1.0-SNAPSHOT" target="flexibleCMS:cms_dao:jar:1.0-SNAPSHOT">
+              <point x="0.0" y="0.0" />
+              <point x="40.5" y="58.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="133.0" y="61.0" />
+          <SelectedNodes>
+            <node>javax.servlet:servlet-api:jar:2.5</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.flexiblecms:flexibleCMS:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.flexiblecms:flexibleCMS:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.flexiblecms:flexibleCMS:1.0-SNAPSHOT</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="54.5" y="16.0" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.flexiblecms:cms_web:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.flexiblecms:cms_web:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">com.flexiblecms:cms_dao:jar:1.0-SNAPSHOT</node>
+            <node x="" y="">javax.servlet:servlet-api:jar:2.5</node>
+            <node x="" y="">junit:junit:jar:4.11</node>
+            <node x="" y="">com.flexiblecms:cms_web:1.0-SNAPSHOT</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="165.5" y="58.0" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.3.RELEASE/spring-webmvc-3.2.3.RELEASE.jar!/org/springframework/web/servlet/view/InternalResourceViewResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="0.24070022" vertical-offset="0" max-vertical-offset="616">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4-sources.jar!/org/apache/commons/dbcp/BasicDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="13" selection-start="2062" selection-end="2062" vertical-scroll-proportion="0.37030995" vertical-offset="235" max-vertical-offset="33110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Dao/src/main/resources/database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="563">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="46" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="1210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Dao/src/main/java/com/flexiblecms/db/entiy/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="8" selection-start="192" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="726">
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Dao/src/main/java/com/flexiblecms/db/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="23" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0" vertical-offset="359" max-vertical-offset="1034">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.flexiblecms:flexiblecms_service:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.flexiblecms:flexiblecms_service:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="362.0" y="252.0">com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/commons-dbcp:commons-dbcp:jar:1.4</node>
+            <node x="703.0" y="210.0">com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-expression:jar:4.0.2.RELEASE/org.springframework:spring-core:jar:4.0.2.RELEASE</node>
+            <node x="362.0" y="336.0">com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.mybatis:mybatis:jar:3.1.1</node>
+            <node x="654.0" y="42.0">com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-aop:jar:4.0.2.RELEASE/org.springframework:spring-beans:jar:4.0.2.RELEASE</node>
+            <node x="362.0" y="378.0">com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.mybatis:mybatis-spring:jar:1.2.0</node>
+            <node x="661.0" y="168.0">com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-core:jar:4.0.2.RELEASE/commons-logging:commons-logging:jar:1.1.3</node>
+            <node x="522.0" y="210.0">com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-expression:jar:4.0.2.RELEASE</node>
+            <node x="195.0" y="0.0">com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT</node>
+            <node x="668.0" y="126.0">com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-beans:jar:4.0.2.RELEASE/org.springframework:spring-core:jar:4.0.2.RELEASE</node>
+            <node x="522.0" y="126.0">com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-beans:jar:4.0.2.RELEASE</node>
+            <node x="654.0" y="84.0">com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-aop:jar:4.0.2.RELEASE/org.springframework:spring-core:jar:4.0.2.RELEASE</node>
+            <node x="654.0" y="0.0">com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-aop:jar:4.0.2.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="522.0" y="0.0">com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-aop:jar:4.0.2.RELEASE</node>
+            <node x="362.0" y="0.0">com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE</node>
+            <node x="508.0" y="252.0">com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/commons-dbcp:commons-dbcp:jar:1.4/commons-pool:commons-pool:jar:1.5.4</node>
+            <node x="362.0" y="294.0">com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/mysql:mysql-connector-java:jar:5.1.18</node>
+            <node x="0.0" y="0.0">com.flexiblecms:flexiblecms_service:1.0-SNAPSHOT</node>
+            <node x="522.0" y="168.0">com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-core:jar:4.0.2.RELEASE</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.flexiblecms:flexiblecms_service:1.0-SNAPSHOT" target="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-aop:jar:4.0.2.RELEASE" target="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-aop:jar:4.0.2.RELEASE/org.springframework:spring-core:jar:4.0.2.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="573.0" y="100.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT" target="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT" target="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/commons-dbcp:commons-dbcp:jar:1.4">
+              <point x="0.0" y="0.0" />
+              <point x="263.5" y="268.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE" target="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-core:jar:4.0.2.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="427.0" y="184.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-expression:jar:4.0.2.RELEASE" target="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-expression:jar:4.0.2.RELEASE/org.springframework:spring-core:jar:4.0.2.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/commons-dbcp:commons-dbcp:jar:1.4" target="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/commons-dbcp:commons-dbcp:jar:1.4/commons-pool:commons-pool:jar:1.5.4">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-aop:jar:4.0.2.RELEASE" target="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-aop:jar:4.0.2.RELEASE/org.springframework:spring-beans:jar:4.0.2.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="573.0" y="58.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT" target="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/mysql:mysql-connector-java:jar:5.1.18">
+              <point x="0.0" y="0.0" />
+              <point x="263.5" y="310.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE" target="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-expression:jar:4.0.2.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="427.0" y="226.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-beans:jar:4.0.2.RELEASE" target="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-beans:jar:4.0.2.RELEASE/org.springframework:spring-core:jar:4.0.2.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT" target="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.mybatis:mybatis:jar:3.1.1">
+              <point x="0.0" y="0.0" />
+              <point x="263.5" y="352.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-aop:jar:4.0.2.RELEASE" target="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-aop:jar:4.0.2.RELEASE/aopalliance:aopalliance:jar:1.0">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE" target="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-aop:jar:4.0.2.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-core:jar:4.0.2.RELEASE" target="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-core:jar:4.0.2.RELEASE/commons-logging:commons-logging:jar:1.1.3">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE" target="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-beans:jar:4.0.2.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="427.0" y="142.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT" target="com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.mybatis:mybatis-spring:jar:1.2.0">
+              <point x="0.0" y="0.0" />
+              <point x="263.5" y="394.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="209.0" y="152.0" />
+          <SelectedNodes>
+            <node>com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Service/src/main/java/com/flexiblecms/service/dao/UserServiceDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="23" selection-start="142" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.flexiblecms:flexiblecms_web:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.flexiblecms:flexiblecms_web:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.flexiblecms:flexiblecms_service:jar:1.0-SNAPSHOT/com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/commons-dbcp:commons-dbcp:jar:1.4</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.3.RELEASE/org.springframework:spring-web:jar:3.2.3.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-aop:jar:4.0.2.RELEASE/org.springframework:spring-beans:jar:4.0.2.RELEASE</node>
+            <node x="" y="">com.flexiblecms:flexiblecms_service:jar:1.0-SNAPSHOT</node>
+            <node x="" y="">com.flexiblecms:flexiblecms_web:1.0-SNAPSHOT</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.3.RELEASE/org.springframework:spring-core:jar:3.2.3.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-aop:jar:4.0.2.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-core:jar:4.0.2.RELEASE</node>
+            <node x="" y="">com.flexiblecms:flexiblecms_service:jar:1.0-SNAPSHOT/com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/commons-dbcp:commons-dbcp:jar:1.4/commons-pool:commons-pool:jar:1.5.4</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:3.2.3.RELEASE/org.springframework:spring-tx:jar:3.2.3.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.3.RELEASE/org.springframework:spring-context:jar:4.0.2.RELEASE</node>
+            <node x="" y="">com.flexiblecms:flexiblecms_service:jar:1.0-SNAPSHOT/com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.mybatis:mybatis-spring:jar:1.2.0</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-core:jar:4.0.2.RELEASE/commons-logging:commons-logging:jar:1.1.3</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.3.RELEASE/org.springframework:spring-web:jar:3.2.3.RELEASE/org.springframework:spring-aop:jar:3.2.3.RELEASE</node>
+            <node x="" y="">com.flexiblecms:flexiblecms_service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:3.2.3.RELEASE/org.springframework:spring-core:jar:3.2.3.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.3.RELEASE/org.springframework:spring-expression:jar:3.2.3.RELEASE</node>
+            <node x="" y="">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.3.RELEASE/org.springframework:spring-beans:jar:3.2.3.RELEASE</node>
+            <node x="" y="">com.flexiblecms:flexiblecms_service:jar:1.0-SNAPSHOT/com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/mysql:mysql-connector-java:jar:5.1.18</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:3.2.3.RELEASE/org.springframework:spring-beans:jar:3.2.3.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:3.2.3.RELEASE/org.springframework:spring-tx:jar:3.2.3.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">javax.servlet:servlet-api:jar:2.5</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-beans:jar:4.0.2.RELEASE/org.springframework:spring-core:jar:4.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.3.RELEASE/org.springframework:spring-web:jar:3.2.3.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:3.2.3.RELEASE/org.springframework:spring-tx:jar:3.2.3.RELEASE/org.springframework:spring-beans:jar:3.2.3.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.3.RELEASE/org.springframework:spring-web:jar:3.2.3.RELEASE/org.springframework:spring-core:jar:3.2.3.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-aop:jar:4.0.2.RELEASE/org.springframework:spring-core:jar:4.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-beans:jar:4.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-aop:jar:4.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.3.RELEASE/org.springframework:spring-web:jar:3.2.3.RELEASE/org.springframework:spring-beans:jar:3.2.3.RELEASE</node>
+            <node x="" y="">com.flexiblecms:flexiblecms_service:jar:1.0-SNAPSHOT/com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.3.RELEASE/org.springframework:spring-web:jar:3.2.3.RELEASE/org.springframework:spring-context:jar:4.0.2.RELEASE</node>
+            <node x="" y="">com.flexiblecms:flexiblecms_service:jar:1.0-SNAPSHOT/com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT/org.mybatis:mybatis:jar:3.1.1</node>
+            <node x="" y="">com.flexiblecms:flexiblecms_service:jar:1.0-SNAPSHOT/com.flexiblecms:flexiblecms_dao:jar:1.0-SNAPSHOT</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-expression:jar:4.0.2.RELEASE/org.springframework:spring-core:jar:4.0.2.RELEASE</node>
+            <node x="" y="">junit:junit:jar:4.11</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:3.2.3.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.3.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.0.2.RELEASE/org.springframework:spring-expression:jar:4.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:3.2.3.RELEASE/org.springframework:spring-tx:jar:3.2.3.RELEASE/org.springframework:spring-core:jar:3.2.3.RELEASE</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7991568296795952" x="748.9179151719773" y="105.53977632411903" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Dao/src/main/resources/mappers/User.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <folding>
+            <marker date="1395382566227" expanded="true" signature="-1:-1" placeholder="SELECT id, n..U_USER..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Dao/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="34" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0" vertical-offset="263" max-vertical-offset="880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="1749" selection-end="1749" vertical-scroll-proportion="0.0" vertical-offset="1254" max-vertical-offset="1958">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.2.0/mybatis-spring-1.2.0.jar!/org/mybatis/spring/SqlSessionTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="161" selection-end="161" vertical-scroll-proportion="-4.4" vertical-offset="0" max-vertical-offset="1936">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.2.0/mybatis-spring-1.2.0.jar!/org/mybatis/spring/support/SqlSessionDaoSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="94" selection-start="614" selection-end="632" vertical-scroll-proportion="0.50980395" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.2.0/mybatis-spring-1.2.0.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="161" selection-end="161" vertical-scroll-proportion="-1.76" vertical-offset="66" max-vertical-offset="1782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1606">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Web/src/main/resources/spring-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="11" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.81105167" vertical-offset="161" max-vertical-offset="1056">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Web/src/main/java/com/flexiblecms/web/controller/HellwordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="51" selection-start="828" selection-end="828" vertical-scroll-proportion="0.65445024" vertical-offset="109" max-vertical-offset="682">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Service/src/main/java/com/flexiblecms/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="28" selection-start="320" selection-end="335" vertical-scroll-proportion="0.29382303" vertical-offset="0" max-vertical-offset="599">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="46" selection-start="3446" selection-end="3446" vertical-scroll-proportion="0.6" vertical-offset="2244" max-vertical-offset="4224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Dao/src/main/java/com/flexiblecms/db/base/BaseDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="52" selection-start="186" selection-end="186" vertical-scroll-proportion="0.26876092" vertical-offset="0" max-vertical-offset="573">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Dao/src/main/java/com/flexiblecms/db/common/CommonDaoSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="72" selection-start="422" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="49" max-vertical-offset="528">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Web/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="31" selection-start="3415" selection-end="3415" vertical-scroll-proportion="-10.28" vertical-offset="1393" max-vertical-offset="2662">
+          <folding>
+            <element signature="e#1410#1439#0" expanded="true" />
+            <element signature="e#1472#1489#0" expanded="true" />
+            <element signature="e#1527#1549#0" expanded="true" />
+            <element signature="e#1587#1609#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlexibleCMS_Dao/src/main/java/com/flexiblecms/db/dao/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="159" selection-end="159" vertical-scroll-proportion="0.19642857" vertical-offset="0" max-vertical-offset="560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>cms_dao:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (cms_web)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|cms_web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Android API 17 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: javax.servlet:servlet-api:2.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>
+
