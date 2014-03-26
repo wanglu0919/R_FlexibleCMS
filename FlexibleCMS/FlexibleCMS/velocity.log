@@ -1,0 +1,607 @@
+2014-03-24 16:09:11,872 - Log4JLogChute initialized using file 'velocity.log'
+2014-03-24 16:09:11,873 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2014-03-24 16:09:11,873 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-03-24 16:09:11,873 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-03-24 16:09:11,874 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:534)
+	at org.apache.velocity.runtime.RuntimeSingleton.init(RuntimeSingleton.java:227)
+	at org.apache.velocity.app.Velocity.init(Velocity.java:111)
+	at com.flexiblecms.web.controller.HellwordController.genateTemp(HellwordController.java:68)
+	at com.flexiblecms.web.controller.HellwordController.testVolicity(HellwordController.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:219)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:745)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:686)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:936)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:827)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:812)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2014-03-24 16:09:11,875 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-03-24 16:09:11,875 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-03-24 16:09:11,875 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-03-24 16:09:11,875 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-03-24 16:09:11,876 - Do unicode file recognition:  false
+2014-03-24 16:09:11,876 - FileResourceLoader : adding path ''
+2014-03-24 16:09:11,876 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2014-03-24 16:09:11,876 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-03-24 16:09:11,876 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-03-24 16:09:11,876 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-03-24 16:09:11,876 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-03-24 16:09:11,876 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-03-24 16:09:11,876 - Created '20' parsers.
+2014-03-24 16:09:11,876 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-03-24 16:09:11,877 - Velocimacro : Default library not found.
+2014-03-24 16:09:11,877 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-03-24 16:09:11,877 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-03-24 16:09:11,877 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-03-24 16:09:11,877 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-03-24 16:09:11,878 - ResourceManager : found E:\git_idea_workspace\FlexibleCMS\FlexibleCMS_Web\src\main\webapp\WEB-INF\template\user.vim with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-03-24 16:10:42,254 - ResourceManager : found E:\git_idea_workspace\FlexibleCMS\FlexibleCMS_Web\src\main\webapp\WEB-INF\template\user.vim with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-03-24 16:13:35,157 - Log4JLogChute initialized using file 'velocity.log'
+2014-03-24 16:13:35,158 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2014-03-24 16:13:35,158 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-03-24 16:13:35,158 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-03-24 16:13:35,159 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:534)
+	at org.apache.velocity.runtime.RuntimeSingleton.init(RuntimeSingleton.java:227)
+	at org.apache.velocity.app.Velocity.init(Velocity.java:111)
+	at com.flexiblecms.web.controller.HellwordController.genateTemp(HellwordController.java:68)
+	at com.flexiblecms.web.controller.HellwordController.testVolicity(HellwordController.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:219)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:745)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:686)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:936)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:827)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:812)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2014-03-24 16:13:35,160 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-03-24 16:13:35,160 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-03-24 16:13:35,160 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-03-24 16:13:35,160 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-03-24 16:13:35,160 - Do unicode file recognition:  false
+2014-03-24 16:13:35,160 - FileResourceLoader : adding path ''
+2014-03-24 16:13:35,160 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2014-03-24 16:13:35,161 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-03-24 16:13:35,161 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-03-24 16:13:35,161 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-03-24 16:13:35,161 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-03-24 16:13:35,161 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-03-24 16:13:35,161 - Created '20' parsers.
+2014-03-24 16:13:35,161 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-03-24 16:13:35,162 - Velocimacro : Default library not found.
+2014-03-24 16:13:35,162 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-03-24 16:13:35,162 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-03-24 16:13:35,162 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-03-24 16:13:35,162 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-03-24 16:13:35,162 - ResourceManager : found E:\git_idea_workspace\FlexibleCMS\FlexibleCMS_Web\src\main\webapp\WEB-INF\template\user.vim with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-03-24 16:15:27,699 - ResourceManager : found E:\git_idea_workspace\FlexibleCMS\FlexibleCMS_Web\src\main\webapp\WEB-INF\template\user.vim with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-03-24 16:16:00,744 - ResourceManager : found E:\git_idea_workspace\FlexibleCMS\FlexibleCMS_Web\src\main\webapp\WEB-INF\template\user.vim with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-03-24 16:16:23,223 - ResourceManager : found E:\git_idea_workspace\FlexibleCMS\FlexibleCMS_Web\src\main\webapp\WEB-INF\template\user.vim with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-03-24 16:35:05,789 - Log4JLogChute initialized using file 'velocity.log'
+2014-03-24 16:35:05,790 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2014-03-24 16:35:05,790 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-03-24 16:35:05,790 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-03-24 16:35:05,790 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:534)
+	at org.apache.velocity.runtime.RuntimeSingleton.init(RuntimeSingleton.java:227)
+	at org.apache.velocity.app.Velocity.init(Velocity.java:111)
+	at com.flexiblecms.web.controller.HellwordController.genateTemp(HellwordController.java:87)
+	at com.flexiblecms.web.controller.HellwordController.testVolicity(HellwordController.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:219)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:745)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:686)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:936)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:827)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:812)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2014-03-24 16:35:05,792 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-03-24 16:35:05,792 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-03-24 16:35:05,792 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-03-24 16:35:05,792 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-03-24 16:35:05,792 - Do unicode file recognition:  false
+2014-03-24 16:35:05,792 - FileResourceLoader : adding path ''
+2014-03-24 16:35:05,792 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2014-03-24 16:35:05,792 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-03-24 16:35:05,792 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-03-24 16:35:05,792 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-03-24 16:35:05,792 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-03-24 16:35:05,792 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-03-24 16:35:05,793 - Created '20' parsers.
+2014-03-24 16:35:05,793 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-03-24 16:35:05,794 - Velocimacro : Default library not found.
+2014-03-24 16:35:05,794 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-03-24 16:35:05,794 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-03-24 16:35:05,794 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-03-24 16:35:05,794 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-03-24 16:35:05,794 - ResourceManager : found E:\git_idea_workspace\FlexibleCMS\FlexibleCMS_Web\src\main\webapp\WEB-INF\template\user.vim with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-03-24 16:41:59,931 - Log4JLogChute initialized using file 'velocity.log'
+2014-03-24 16:41:59,932 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2014-03-24 16:41:59,932 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-03-24 16:41:59,932 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-03-24 16:41:59,933 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:534)
+	at org.apache.velocity.app.VelocityEngine.init(VelocityEngine.java:144)
+	at com.flexiblecms.web.controller.HellwordController.genateTemp(HellwordController.java:86)
+	at com.flexiblecms.web.controller.HellwordController.testVolicity(HellwordController.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:219)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:745)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:686)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:936)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:827)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:812)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2014-03-24 16:41:59,934 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-03-24 16:41:59,934 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-03-24 16:41:59,934 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-03-24 16:41:59,934 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-03-24 16:41:59,934 - Do unicode file recognition:  false
+2014-03-24 16:41:59,934 - FileResourceLoader : adding path '.'
+2014-03-24 16:41:59,935 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2014-03-24 16:41:59,935 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-03-24 16:41:59,935 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-03-24 16:41:59,935 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-03-24 16:41:59,935 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-03-24 16:41:59,935 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-03-24 16:41:59,935 - Created '20' parsers.
+2014-03-24 16:41:59,935 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-03-24 16:41:59,936 - Velocimacro : Default library not found.
+2014-03-24 16:41:59,936 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-03-24 16:41:59,936 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-03-24 16:41:59,936 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-03-24 16:41:59,936 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-03-24 16:41:59,936 - ResourceManager : unable to find resource 'E:\git_idea_workspace\FlexibleCMS\FlexibleCMS_Web\src\main\webapp\WEB-INF\template\user.vim' in any resource loader.
+2014-03-24 16:57:39,588 - Log4JLogChute initialized using file 'velocity.log'
+2014-03-24 16:57:39,589 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2014-03-24 16:57:39,589 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-03-24 16:57:39,589 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-03-24 16:57:39,589 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:534)
+	at org.apache.velocity.app.VelocityEngine.init(VelocityEngine.java:144)
+	at com.flexiblecms.web.controller.HellwordController.genateTemp(HellwordController.java:89)
+	at com.flexiblecms.web.controller.HellwordController.testVolicity(HellwordController.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:219)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:745)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:686)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:936)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:827)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:812)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2014-03-24 16:57:39,591 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-03-24 16:57:39,591 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-03-24 16:57:39,591 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-03-24 16:57:39,591 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-03-24 16:57:39,591 - Do unicode file recognition:  false
+2014-03-24 16:57:39,591 - FileResourceLoader : adding path '.'
+2014-03-24 16:57:39,591 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2014-03-24 16:57:39,591 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-03-24 16:57:39,591 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-03-24 16:57:39,591 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-03-24 16:57:39,591 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-03-24 16:57:39,591 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-03-24 16:57:39,591 - Created '20' parsers.
+2014-03-24 16:57:39,591 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-03-24 16:57:39,592 - Velocimacro : Default library not found.
+2014-03-24 16:57:39,592 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-03-24 16:57:39,592 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-03-24 16:57:39,592 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-03-24 16:57:39,592 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-03-24 16:57:39,592 - ResourceManager : unable to find resource 'E:\git_idea_workspace\FlexibleCMS\FlexibleCMS_Web\src\main\webapp\WEB-INF\template\user.vim' in any resource loader.
+2014-03-25 09:18:50,130 - Log4JLogChute initialized using file 'velocity.log'
+2014-03-25 09:18:50,147 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2014-03-25 09:18:50,147 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-03-25 09:18:50,147 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-03-25 09:18:50,147 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:534)
+	at org.apache.velocity.app.VelocityEngine.init(VelocityEngine.java:144)
+	at com.flexiblecms.web.controller.HellwordController.genateTemp(HellwordController.java:97)
+	at com.flexiblecms.web.controller.HellwordController.testVolicity(HellwordController.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:219)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:745)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:686)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:936)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:827)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:812)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2014-03-25 09:18:50,149 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-03-25 09:18:50,149 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-03-25 09:18:50,149 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-03-25 09:18:50,149 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-03-25 09:18:50,149 - Do unicode file recognition:  false
+2014-03-25 09:18:50,149 - FileResourceLoader : adding path 'D:/'
+2014-03-25 09:18:50,149 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2014-03-25 09:18:50,149 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-03-25 09:18:50,149 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-03-25 09:18:50,149 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-03-25 09:18:50,149 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-03-25 09:18:50,149 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-03-25 09:18:50,164 - Created '20' parsers.
+2014-03-25 09:18:50,164 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-03-25 09:18:50,165 - Velocimacro : Default library not found.
+2014-03-25 09:18:50,165 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-03-25 09:18:50,165 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-03-25 09:18:50,165 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-03-25 09:18:50,165 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-03-25 09:18:50,166 - ResourceManager : found user.vim with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-03-25 09:19:14,596 - Log4JLogChute initialized using file 'velocity.log'
+2014-03-25 09:19:14,596 - Log4JLogChute initialized using file 'velocity.log'
+2014-03-25 09:19:14,596 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2014-03-25 09:19:14,596 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2014-03-25 09:19:14,596 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-03-25 09:19:14,596 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-03-25 09:19:14,596 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-03-25 09:19:14,596 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-03-25 09:19:14,596 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:534)
+	at org.apache.velocity.app.VelocityEngine.init(VelocityEngine.java:144)
+	at com.flexiblecms.web.controller.HellwordController.genateTemp(HellwordController.java:97)
+	at com.flexiblecms.web.controller.HellwordController.testVolicity(HellwordController.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:219)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:745)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:686)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:936)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:827)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:812)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2014-03-25 09:19:14,596 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:534)
+	at org.apache.velocity.app.VelocityEngine.init(VelocityEngine.java:144)
+	at com.flexiblecms.web.controller.HellwordController.genateTemp(HellwordController.java:97)
+	at com.flexiblecms.web.controller.HellwordController.testVolicity(HellwordController.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:219)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:745)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:686)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:936)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:827)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:812)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2014-03-25 09:19:14,597 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-03-25 09:19:14,597 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-03-25 09:19:14,597 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-03-25 09:19:14,597 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-03-25 09:19:14,597 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-03-25 09:19:14,597 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-03-25 09:19:14,597 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-03-25 09:19:14,597 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-03-25 09:19:14,597 - Do unicode file recognition:  false
+2014-03-25 09:19:14,597 - Do unicode file recognition:  false
+2014-03-25 09:19:14,597 - FileResourceLoader : adding path 'D:/'
+2014-03-25 09:19:14,597 - FileResourceLoader : adding path 'D:/'
+2014-03-25 09:19:14,597 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2014-03-25 09:19:14,597 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2014-03-25 09:19:14,598 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-03-25 09:19:14,598 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-03-25 09:19:14,598 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-03-25 09:19:14,598 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-03-25 09:19:14,598 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-03-25 09:19:14,598 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-03-25 09:19:14,598 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-03-25 09:19:14,598 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-03-25 09:19:14,598 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-03-25 09:19:14,598 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-03-25 09:19:14,599 - Created '20' parsers.
+2014-03-25 09:19:14,599 - Created '20' parsers.
+2014-03-25 09:19:14,599 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-03-25 09:19:14,599 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-03-25 09:19:14,599 - Velocimacro : Default library not found.
+2014-03-25 09:19:14,599 - Velocimacro : Default library not found.
+2014-03-25 09:19:14,599 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-03-25 09:19:14,599 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-03-25 09:19:14,599 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-03-25 09:19:14,599 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-03-25 09:19:14,599 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-03-25 09:19:14,599 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-03-25 09:19:14,599 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-03-25 09:19:14,599 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-03-25 09:19:14,599 - ResourceManager : found user.vim with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-03-25 09:19:14,599 - ResourceManager : found user.vim with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader

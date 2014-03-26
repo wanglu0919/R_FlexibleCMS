@@ -1,0 +1,98 @@
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+UL {
+	LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+OL {
+	LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+LI {
+	LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+FIELDSET {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+BODY {
+	BACKGROUND: url(../images/bg_body.jpg) no-repeat center top
+}
+.clearfix:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; CONTENT: "."
+}
+.clearfix {
+	DISPLAY: inline-block
+}
+.clearfix {
+	DISPLAY: block
+}
+.container {
+	MARGIN: 0px auto; WIDTH: 900px
+}
+.header {
+	HEIGHT: 150px
+}
+.header H1 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 60px; PADDING-RIGHT: 0px; PADDING-TOP: 50px
+}
+.content {
+	HEIGHT: 450px
+}
+.ad {
+	PADDING-LEFT: 80px; WIDTH: 360px; FLOAT: left
+}
+.leftLoop {
+	POSITION: relative; OVERFLOW: hidden
+}
+.leftLoop .hd UL {
+	TEXT-ALIGN: center; MARGIN-TOP: 10px; MARGIN-LEFT: 160px
+}
+
+.leftLoop .hd UL LI.on {
+	BACKGROUND-POSITION: center top
+}
+.leftLoop .bd {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+.leftLoop .bd UL {
+	ZOOM: 1; OVERFLOW: hidden
+}
+.leftLoop .bd UL LI {
+	TEXT-ALIGN: center; MARGIN: 0px 10px; WIDTH: 340px; FLOAT: left; OVERFLOW: hidden; _display: inline
+}
+.login {
+	PADDING-BOTTOM: 0px; MARGIN-TOP: 30px; PADDING-LEFT: 40px; WIDTH: 242px; PADDING-RIGHT: 40px; BACKGROUND: url(../images/bg_form.png); FLOAT: right; HEIGHT: 242px; MARGIN-RIGHT: 80px; PADDING-TOP: 65px; _display: inline
+}
+.login UL LI {
+	POSITION: relative; MARGIN: 10px 0px
+}
+.login .ipt {
+	BORDER-BOTTOM: #bababa 1px solid; BORDER-LEFT: #bababa 1px solid; LINE-HEIGHT: 30px; WIDTH: 80%; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 30px; COLOR: #333; FONT-SIZE: 16px; BORDER-TOP: #bababa 1px solid; BORDER-RIGHT: #bababa 1px solid
+}
+.login UL LI EM {
+	POSITION: absolute; MARGIN-LEFT: 10px; TOP: 5px; CURSOR: pointer
+}
+.login UL LI.submit {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.user {
+	PADDING-LEFT: 40px; BACKGROUND: url(../images/icon_login.png) #fff no-repeat left top
+}
+.pw {
+	PADDING-LEFT: 40px; BACKGROUND: url(../images/icon_login.png) #fff no-repeat left bottom
+}
+.yanz {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 0px
+}
+.warning {
+	LINE-HEIGHT: 24px; HEIGHT: 24px; COLOR: #fc7100
+}
+.submit INPUT {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 84px; BORDER-TOP-STYLE: none; BACKGROUND: url(../images/bt_login.png) no-repeat; HEIGHT: 30px; BORDER-LEFT-STYLE: none
+}
+
+.footer {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 20px; LINE-HEIGHT: 1.8; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #6d8ca3; PADDING-TOP: 20px
+}
+.footer EM {
+	FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}

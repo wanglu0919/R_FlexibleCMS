@@ -1,0 +1,16 @@
+.cent_content {
+height: 100%;
+width: 100%;
+position: absolute;
+overflow: hidden;
+}
+
+
+.cent_content iframe {
+height: 100%;
+width: 99.99%;
+z-index: 20;
+border: 0;
+padding: 0;
+margin: 0;
+}

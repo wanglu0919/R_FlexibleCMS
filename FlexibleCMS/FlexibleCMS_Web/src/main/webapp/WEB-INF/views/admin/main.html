@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Full Layout - jQuery EasyUI Demo</title>
+		<link rel="stylesheet" type="text/css" href="easyui/themes/default/easyui.css">
+		<link rel="stylesheet" type="text/css" href="easyui/themes/icon.css">
+		<link rel="stylesheet" type="text/css" href="easyui/css/demo.css">
+		<link rel="stylesheet" type="text/css" href="easyui/css/mstyle.css">
+		<script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+		<!--<script type="text/javascript" src="easyui/js/jquery.min.js"></script>-->
+		<script type="text/javascript" src="easyui/js/jquery.easyui.min.js"></script>
+		<script type="text/javascript"></script>
+		<style type="text/css">
+			.toolbar {
+
+				position: absolute;
+				bottom: 0px;
+				left: 0px;
+				width: 100%;
+				height: 26px;
+				font-family: "\5b8b\4f53";
+				overflow: hidden;
+				border-bottom: 1px solid #6893CF;
+				background: url("images/toolbar.gif") repeat-x;
+			}
+		</style>
+
+	</head>
+	<body class="easyui-layout">
+		<div data-options="region:'north',border:false" style="height:80px;background:url('images/top.gif');padding:10px">
+
+			<img src="images/main_title_logo.png" />
+			<div style="float: right">
+				<a href="#" class="easyui-linkbutton" data-options="plain:true"><font color="#ffffff">首页</font></a>
+				<a href="#" class="easyui-menubutton" data-options="menu:'#mm1'"><font color="#ffffff">王璐</font></a>
+
+			</div>
+
+			<div id="mm1" style="width:150px;">
+				<div data-options="iconCls:'icon-undo'">
+					退出
+				</div>
+				<div data-options="iconCls:'icon-redo'">
+					信息
+				</div>
+				<div class="menu-sep"></div>
+
+			</div>
+
+			<div class="toolbar">
+
+				<a href="#" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-cancel'"><font color="#ffffff">站点管理</font></a>
+				<a href="#" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-reload'"><font color="#ffffff">系统管理</font></a>
+				<a href="#" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-search'"><font color="#ffffff">目录管理</font></a>
+				<a href="#" class="easyui-linkbutton" data-options="plain:true"><font color="#ffffff">多媒体管理</font></a>
+			</div>
+
+		</div>
+
+		<div data-options="region:'west',split:true,title:'导航'" style="width:200px;padding:10px;">
+			west content
+		</div>
+
+		<div data-options="region:'center',title:'欢迎使用FlexibleCMS'" >
+
+			<div class="cent_content">
+
+				<iframe frameborder="0" id="mainFrame" name="mainFrame" src="www.intertid.com"></iframe>
+
+			</div>
+
+		</div>
+	</body>
+</html>

@@ -1,0 +1,114 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0034)http://58.241.7.218:8081/ecm/login -->
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+    <TITLE>FlexibleCMS 内容管理系统</TITLE>
+    <META charset=utf-8>
+    <META name=description content="">
+    <META content=no-cache http-equiv=Pragma>
+    <META content=0 http-equiv=Expires>
+
+    <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+
+
+    <LINK rel=stylesheet href="css/login.css">
+
+    <META name=GENERATOR content="MSHTML 8.00.7601.18392">
+
+    <script>
+        $(document).ready(function () {
+
+            $("#changeVecode").click(function () {//更换验证码
+
+                $("#img_vecode").attr("src", "$link.getBasePath()/admin/login/vecode");
+
+            });
+
+
+            jQuery(":submit").click(function () {//提交
+
+                var vecode = $("#input_vecode").val();
+
+
+                jQuery.ajax({
+                            type: "POST",
+                            url: "./login.json",
+                            data: "name=wanglu&password=123456&vecode=" + vecode,
+                            dataType: "json",
+                            success: function (data) {
+                                alert(data);
+                            }
+
+
+                        }
+                );
+
+
+            });
+
+
+        });
+
+    </script>
+</HEAD>
+<BODY>
+<DIV class=container>
+    <DIV class=header>
+        <H1 class=logo><IMG src="images/logo.png"></H1>
+    </DIV>
+    <DIV class="content clearfix">
+        <DIV class=ad>
+            <DIV id=autoPage class=leftLoop>
+                <DIV class=bd>
+                    <UL class=picList>
+                        <LI><IMG src="images/ad01.png">
+                        </LI>
+                    </UL>
+                </DIV>
+
+            </DIV>
+        </DIV>
+        <DIV class=login>
+            <FIELDSET>
+                <P class="warning textshadow">
+                    请输入帐户信息
+                </P>
+
+                <FORM id=loginform onsubmit="return false;" method=post>
+                    <UL>
+                        <LI>
+                            <INPUT id=j_username class="ipt user" type=text name=j_username>
+                        </LI>
+                        <LI>
+                            <INPUT id=j_password class="ipt pw" type=password name=j_password>
+                        </LI>
+                        <LI>
+                            <INPUT style="WIDTH: 25%" id="input_vecode" class="ipt yanz" maxLength=4
+                                   type=text name=j_captcha> <img src="$link.getBasePath()/admin/login/vecode"
+                                                                  id="img_vecode"/>
+                            <a href="#" id="changeVecode">换一张</a>
+
+                        </LI>
+                        <LI class=submit>
+                            <INPUT type=submit value="">
+                        </LI>
+                    </UL>
+                </FORM>
+            </FIELDSET>
+        </DIV>
+    </DIV>
+    <DIV class="footer textshadow">
+        <P>
+
+            FlexibleCMS 联系631872807
+
+
+        </P>
+    </DIV>
+</DIV>
+<SCRIPT type=text/javascript>
+
+</SCRIPT>
+</BODY>
+</HTML>
